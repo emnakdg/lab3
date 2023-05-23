@@ -1,6 +1,6 @@
 dic = {"United Nations Educational, Scientific and Cultural Organization": "UNESCO", "Federal Bureau of Investigation": "FBI"}
 
-user = input("What is the organization’s full name ? : ")
+user = input("What is the organization's full name ? : ")
 
 try:
     print(dic[user])
@@ -12,4 +12,4 @@ except:
         dic.update({user : ob})
         print(dic[user])
     else:
-        print("Program is closing")
+        print("Program is closing")

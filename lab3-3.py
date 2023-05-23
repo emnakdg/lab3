@@ -9,4 +9,4 @@ try:
     print(my_set)
     
 except:
-    print("bad data")
+    print("bad data")
